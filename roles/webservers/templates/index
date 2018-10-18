@@ -1,0 +1,6 @@
+<h1>
+{{time}} nao tem mundial
+<br>
+hosname: {{ansible_hostname}}
+distro: {{ansible_os_family}}
+</h1>

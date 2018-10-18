@@ -1,0 +1,4 @@
+- name: chamado mina role do server web
+  hosts: all
+  roles:
+   - web

@@ -1,0 +1,23 @@
+---
+- name: exercicio-1
+  hosts: all
+  tasks: 
+   - name: adicionando usuarios devops
+     user:
+      name: devops
+      password: '$1$ruhxIpi1$TNTY7GZuXemHHZRVP9gcy0'
+      shell: /bin/bash
+      home: /home/devops
+   - name: adicionando usuário developer
+     user:
+      name:  developer
+      password: '$1$ruhxIpi1$TNTY7GZuXemHHZRVP9gcy0'
+      shell: /bin/bash
+      home: /home/developer
+   - name: adicionando usuário andre
+     user:
+      name: andre
+      password: '$1$ruhxIpi1$TNTY7GZuXemHHZRVP9gcy0'
+      shell: /bin/bash
+      home: /home/andre
+    

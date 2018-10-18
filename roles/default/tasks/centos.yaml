@@ -1,0 +1,9 @@
+- name: pacotes padroes para maquinas CentOS
+  package:
+   name:
+    - epel-release
+    - figlet
+    - cowsay
+    - htop
+    - sysstat
+   state: present
